@@ -1,0 +1,9 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "spellcheckLanguages": [
+    "zh-CN"
+  ],
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./"
+}
