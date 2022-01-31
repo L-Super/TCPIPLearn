@@ -1,2 +1,2 @@
-# TCPIPLearn
-TCPIP网络编程学习记录
+# TCPIP网络编程学习记录
+学习TCPIP的笔记，主要内容源自《TCP/IP网络编程》(韩-尹圣雨)，以及其他资料。
