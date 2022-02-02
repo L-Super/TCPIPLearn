@@ -25,6 +25,7 @@ int main(int argc, char* argv[])
 		printf("socket() error");
 	memset(&servAddr,0, sizeof(servAddr));
 	servAddr.sin_family = AF_INET;
+	// inet_addr() is deprecated,use inet_pton()
 	servAddr.sin_addr.s_addr = inet_addr(argv[1]);
 	servAddr.sin_port = htons(argv[2]);
 
