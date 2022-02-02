@@ -32,7 +32,8 @@ int main(int argc, char* argv[])
 	if(connect(hScket,(SOCKADDR*)&servAddr, sizeof(servAddr)) == SOCKET_ERROR)
 		printf("connect() error\n");
 
-	int strLen = recv(hScket,message, sizeof(message) - 1, 0);
+	int strLen = 0;
+	strLen =  recv(hScket,message, sizeof(message) - 1, 0);
 	if(strLen == -1)
 		printf("read() error\n");
 	else
