@@ -12,21 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57d75468-74c2-4ad9-8cb5-25a7d4bcdb42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hello_client_win/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_client_win/.idea/hello_client_win.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_client_win/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_client_win/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_client_win/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_client_win/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello_client_win/hello_client_win.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7577c78939dc02b35953.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-02-02T09-07-30-0602.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_server_win.dir/hello_server_win.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_server_win.dir/hello_server_win.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_server_win.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_server_win.dir/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hello_server_win.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hello_server_win.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hello_server_win.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hello_server_win.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hello_server_win.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hello_server_win.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_server_win.c" beforeDir="false" afterPath="$PROJECT_DIR$/hello_server_win.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643793672877</updated>
-      <workItem from="1643793674148" duration="772000" />
+      <workItem from="1643793674148" duration="1422000" />
     </task>
     <servers />
   </component>
