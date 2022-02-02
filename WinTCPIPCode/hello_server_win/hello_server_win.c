@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <winsock2.h>
 
-int main()
+int main(int argc, char* argv[])
 {
 	WSADATA wsaData;
 	SOCKET hServerSock,hClientSock;
@@ -22,7 +22,29 @@ int main()
 		printf("WSAStartup() error!");
 	}
 	hServerSock = socket(PF_INET,SOCK_STREAM,0);
+	if(hServerSock == INVALID_SOCKET)
+	{
+		printf("socket() error");
+	}
 
+	memset(&servAddr, 0, sizeof(servAddr));
+	servAddr.sin_family = AF_INET;
+	servAddr.sin_addr.s_addr = htonl(INADDR_ANY);
+	servAddr.sin_port = htons(atoi(argv[1]));
+
+	if(bind(hServerSock,(SOCKADDR*)&servAddr,sizeof(servAddr)) == SOCKET_ERROR)
+		printf("bind() error");
+	if(listen(hServerSock, 5) == SOCKET_ERROR)
+		printf("listen() error");
+	szClientAddr = sizeof(clientAddr);
+	hClientSock = accept(hServerSock,(SOCKADDR*)&clientAddr,&szClientAddr);
+	if(hClientSock == INVALID_SOCKET)
+		printf("accept() error");
+	send(hClientSock,message,sizeof(message),0);
+
+	closesocket(hClientSock);
+	closesocket(hServerSock);
+	WSACleanup();
 	return 0;
 }
 
