@@ -404,8 +404,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/Learn/TCPIP/WinTCPIPCode/hello_server_win/cmake-build-debug",
-		"source" : "E:/Learn/TCPIP/WinTCPIPCode/hello_server_win"
+		"build" : "E:/Learn/TCPIP/WinTCPIPCode/hello_client_win/cmake-build-debug",
+		"source" : "E:/Learn/TCPIP/WinTCPIPCode/hello_client_win"
 	},
 	"version" : 
 	{

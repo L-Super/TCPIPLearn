@@ -1,0 +1,4 @@
+ToolSet: 16.0 (local)@E:\Visual Studio
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=E:/Program Files/JetBrains/CLion 2021.3.2/bin/ninja/win/ninja.exe

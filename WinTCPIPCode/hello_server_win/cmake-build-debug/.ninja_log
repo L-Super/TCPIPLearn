@@ -1,5 +1,3 @@
 # ninja log v5
-1	1194	6654961372576648	CMakeFiles/hello_server_win.dir/hello_server_win.c.obj	b02aba47d6875ec5
-3	1088	6654965530612049	CMakeFiles/hello_server_win.dir/hello_server_win.c.obj	b02aba47d6875ec5
 4	1041	6654966713316551	CMakeFiles/hello_server_win.dir/hello_server_win.c.obj	b02aba47d6875ec5
 1042	1423	6654966716988174	hello_server_win.exe	2d9696e90f64a206
