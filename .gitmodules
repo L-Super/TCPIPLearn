@@ -1,3 +1,3 @@
 [submodule "TCPIPLearn"]
-	path = TCPIPLearn
-	url = git@github.com:L-Super/TCPIPLearn.git
+	path = TCP-IP-NetworkNote
+	url = git@github.com:riba2534/TCP-IP-NetworkNote.git
