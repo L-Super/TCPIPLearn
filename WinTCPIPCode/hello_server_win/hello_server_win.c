@@ -21,13 +21,13 @@ int main(int argc, char* argv[])
 	// 初始化，设置程序用到的Winsock版本，并初始化相应版本的库
 	if(WSAStartup(MAKEWORD(2,2),&wsaData) != 0)
 	{
-		printf("WSAStartup() error!");
+		printf("WSAStartup() error!\n");
 	}
 	// 返回套接字句柄
 	hServerSock = socket(PF_INET,SOCK_STREAM,0);
 	if(hServerSock == INVALID_SOCKET)
 	{
-		printf("socket() error");
+		printf("socket() error\n");
 	}
 
 	memset(&servAddr, 0, sizeof(servAddr));
@@ -36,14 +36,14 @@ int main(int argc, char* argv[])
 	servAddr.sin_port = htons(atoi(argv[1]));
 
 	if(bind(hServerSock,(SOCKADDR*)&servAddr,sizeof(servAddr)) == SOCKET_ERROR)
-		printf("bind() error");
+		printf("bind() error\n");
 	if(listen(hServerSock, 5) == SOCKET_ERROR)
-		printf("listen() error");
+		printf("listen() error\n");
 
 	szClientAddr = sizeof(clientAddr);
 	hClientSock = accept(hServerSock,(SOCKADDR*)&clientAddr,&szClientAddr);
 	if(hClientSock == INVALID_SOCKET)
-		printf("accept() error");
+		printf("accept() error\n");
 	send(hClientSock,message,sizeof(message),0);
 
 	// 关闭套接字
