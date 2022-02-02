@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "hello_client_win.c",
 			"sourceGroupIndex" : 0
 		}
 	],

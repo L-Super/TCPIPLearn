@@ -1,0 +1,4 @@
+# ninja log v5
+1	100	6654977290631247	build.ninja	ed01dfdf8a17d25b
+1	955	6654977398106652	CMakeFiles/hello_client_win.dir/hello_client_win.c.obj	cc95f1ced44c1bca
+958	1295	6654977401371867	hello_client_win.exe	bf35c0675ca26c31
