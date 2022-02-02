@@ -45,8 +45,12 @@ int main(int argc, char* argv[])
 	if(hClientSock == INVALID_SOCKET)
 		printf("accept() error\n");
 	else
-		printf("have a connect");
-	send(hClientSock,message,sizeof(message),0);
+		printf("have a connect\n");
+	int sendByte = send(hClientSock,message,sizeof(message),0);
+	if(sendByte > 0)
+		printf("send success\n");
+	else
+		printf("send fail\n");
 
 	// 关闭套接字
 	closesocket(hClientSock);
