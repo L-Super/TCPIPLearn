@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "8a53d9c46c120820",
+        "id": "c751cf3a6d677c5a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "套接字创建过程.md",
-            "mode": "preview",
+            "file": "LinuxTCPIPCode/readme.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "套接字创建过程.md",
+                "file": "LinuxTCPIPCode/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "套接字创建过程.md"
+                "file": "LinuxTCPIPCode/readme.md"
               }
             }
           }
@@ -97,8 +97,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8a53d9c46c120820",
+  "active": "c751cf3a6d677c5a",
   "lastOpenFiles": [
+    "LinuxTCPIPCode/readme.md",
     "套接字创建过程.md",
     "README.md"
   ]
