@@ -35,8 +35,8 @@ int main(int argc, char* argv[])
 	int strLen = recv(hScket,message, sizeof(message) - 1, 0);
 	if(strLen == -1)
 		printf("read() error\n");
-
-	printf("Message from server: %s \n", message);
+	else
+		printf("Message from server: %s \n", message);
 
 	closesocket(hScket);
 	WSACleanup();
