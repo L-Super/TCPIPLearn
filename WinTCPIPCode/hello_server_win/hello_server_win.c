@@ -44,6 +44,8 @@ int main(int argc, char* argv[])
 	hClientSock = accept(hServerSock,(SOCKADDR*)&clientAddr,&szClientAddr);
 	if(hClientSock == INVALID_SOCKET)
 		printf("accept() error\n");
+	else
+		printf("have a connect");
 	send(hClientSock,message,sizeof(message),0);
 
 	// 关闭套接字
