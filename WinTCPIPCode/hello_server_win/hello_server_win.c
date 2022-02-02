@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
 
 	memset(&servAddr, 0, sizeof(servAddr));
 	servAddr.sin_family = AF_INET;
-	servAddr.sin_addr.s_addr = htonl(INADDR_ANY);
+	servAddr.sin_addr.s_addr = htonl(INADDR_ANY);// INADDR_ANY分配服务端IP
 	servAddr.sin_port = htons(atoi(argv[1]));
 
 	if(bind(hServerSock,(SOCKADDR*)&servAddr,sizeof(servAddr)) == SOCKET_ERROR)
