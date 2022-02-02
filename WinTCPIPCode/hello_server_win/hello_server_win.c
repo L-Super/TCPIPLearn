@@ -3,7 +3,8 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
-#include <winsock2.h>
+#include <WinSock2.h>
+#pragma comment(lib, "Ws2_32.lib")
 
 int main(int argc, char* argv[])
 {
