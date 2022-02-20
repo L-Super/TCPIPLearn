@@ -1,3 +1,15 @@
+/**
+ * @file bound_host1.c
+ * @author Listening (you@domain.com)
+ * @brief udp数据边界的验证
+ * @version 0.1
+ * @date 2022-02-11
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -29,7 +41,7 @@ int main(int argc, char *argv[])
     }
 
     sock = socket(PF_INET, SOCK_DGRAM, 0);
-    if (sock = -1)
+    if (sock == -1)
     {
         error_handing("socket() error");
     }

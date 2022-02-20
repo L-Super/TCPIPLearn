@@ -7,7 +7,7 @@ int inet_pton(int family, const char *strptr, void *addrptr);
 将点分十进制的ip地址转化为用于网络传输的数值格式。
 返回值：若成功则为1，若输入不是有效的表达式则为0，若出错则为-1
 ``` c
-const char * inet_ntop(int family, const void *addrptr, char *strptr, size_t len);  
+const char * inet_ntop(int family, const void *addrptr, char *strptr, size_t len); 
 ```
 将数值格式转化为点分十进制的ip地址格式
 返回值：若成功则为指向结构的指针，若出错则为NULL
