@@ -1,0 +1,9 @@
+# ninja log v5
+5	570	6708711396721674	CMakeFiles/chat_serv_win.dir/main.c.obj	ec2db42afa7b9af7
+1	15	0	clean	19a8dd53effe4213
+572	1199	6708711402609002	chat_serv_win.exe	6aefda17f80b4f72
+3	900	6708766836491777	CMakeFiles/chat_serv_win.dir/main.c.obj	ec2db42afa7b9af7
+901	1180	6708766839274343	chat_serv_win.exe	6aefda17f80b4f72
+4	698	6709136149898120	CMakeFiles/chat_serv_win.dir/main.c.obj	ec2db42afa7b9af7
+3	568	6709136634981018	CMakeFiles/chat_serv_win.dir/main.c.obj	ec2db42afa7b9af7
+569	759	6709136636673296	chat_serv_win.exe	6aefda17f80b4f72

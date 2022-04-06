@@ -1,0 +1,17 @@
+# ninja log v5
+0	110	6708705651578489	CMakeFiles/chat_clnt_win.dir/main.c.obj	3217b084ee207a9b
+111	252	6708705652969005	chat_clnt_win.exe	464ec8e4004e6f9a
+2	876	6708740261617767	CMakeFiles/chat_clnt_win.dir/main.c.obj	e4c185b757806a6a
+878	1243	6708740265178533	chat_clnt_win.exe	69f1ca3e133c2955
+3	928	6709120417069938	CMakeFiles/chat_clnt_win.dir/main.c.obj	e4c185b757806a6a
+928	1252	6709120419873360	chat_clnt_win.exe	69f1ca3e133c2955
+3	694	6709120710054125	CMakeFiles/chat_clnt_win.dir/main.c.obj	e4c185b757806a6a
+695	892	6709120711807983	chat_clnt_win.exe	69f1ca3e133c2955
+4	1288	6709129115183384	CMakeFiles/chat_clnt_win.dir/main.c.obj	e4c185b757806a6a
+1289	1549	6709129117482083	chat_clnt_win.exe	69f1ca3e133c2955
+5	650	6709129648579790	CMakeFiles/chat_clnt_win.dir/main.c.obj	e4c185b757806a6a
+652	870	6709129650424819	chat_clnt_win.exe	69f1ca3e133c2955
+5	761	6709134271255946	CMakeFiles/chat_clnt_win.dir/main.c.obj	e4c185b757806a6a
+761	991	6709134273103120	chat_clnt_win.exe	69f1ca3e133c2955
+4	581	6709135253942496	CMakeFiles/chat_clnt_win.dir/main.c.obj	e4c185b757806a6a
+582	820	6709135255947353	chat_clnt_win.exe	69f1ca3e133c2955

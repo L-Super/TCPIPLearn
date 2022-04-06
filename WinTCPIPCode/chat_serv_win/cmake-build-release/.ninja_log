@@ -1,0 +1,19 @@
+# ninja log v5
+6	1815	6708726773670512	CMakeFiles/chat_serv_win.dir/main.c.obj	3e27dfdfdedcb590
+435	581	6708720830788675	chat_serv_win.exe	2ec6931cd4a44da3
+2	565	6708752868008040	CMakeFiles/chat_serv_win.dir/main.c.obj	941438036988cdf5
+568	727	6708752869603441	chat_serv_win.exe	2ec6931cd4a44da3
+4	671	6708757578193834	CMakeFiles/chat_serv_win.dir/main.c.obj	941438036988cdf5
+3	535	6708758472976443	CMakeFiles/chat_serv_win.dir/main.c.obj	941438036988cdf5
+4	567	6708761697554303	CMakeFiles/chat_serv_win.dir/main.c.obj	941438036988cdf5
+568	721	6708761699063082	chat_serv_win.exe	2ec6931cd4a44da3
+3	615	6708762551036245	CMakeFiles/chat_serv_win.dir/main.c.obj	941438036988cdf5
+615	831	6708762553130016	chat_serv_win.exe	2ec6931cd4a44da3
+3	551	6708763405169356	CMakeFiles/chat_serv_win.dir/main.c.obj	941438036988cdf5
+551	728	6708763406919420	chat_serv_win.exe	2ec6931cd4a44da3
+3	580	6708763937798389	CMakeFiles/chat_serv_win.dir/main.c.obj	941438036988cdf5
+581	759	6708763939550346	chat_serv_win.exe	2ec6931cd4a44da3
+3	559	6708765092825767	CMakeFiles/chat_serv_win.dir/main.c.obj	941438036988cdf5
+559	738	6708765094604783	chat_serv_win.exe	2ec6931cd4a44da3
+4	761	6709136795803814	CMakeFiles/chat_serv_win.dir/main.c.obj	941438036988cdf5
+762	1031	6709136798479875	chat_serv_win.exe	2ec6931cd4a44da3
