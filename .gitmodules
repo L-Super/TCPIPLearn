@@ -1,6 +1,6 @@
 [submodule "TCPIPLearn"]
-	path = TCP-IP-NetworkNote
-	url = git@github.com:riba2534/TCP-IP-NetworkNote.git
+path = TCP-IP-NetworkNote
+url = git@github.com:riba2534/TCP-IP-NetworkNote.git
 
 path = awesome-http
 url = git@github.com:semlinker/awesome-http.git
